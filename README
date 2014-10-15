@@ -1,1 +1,8 @@
+NotifyIt について
+
+NotifyIt はアプリケーションレベルでシンプルにプッシュ通知の送受信を行うものです。
+Dropbox Datastore API のデータ変更通知機能を利用しています。
+詳細は以下のブログエントリに記載しています。
+
+http://dsas.blog.klab.org/archives/52174069.html
 
