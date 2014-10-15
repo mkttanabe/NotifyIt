@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotifyIt</string>
+	<string name="Copyright">Copyright &#169; 2014 KLab Inc.</string>
+    <string name="WordYes">はい</string>
+    <string name="WordNo">いいえ</string>
+    <string name="WordAbout">About</string>
+    <string name="MsgStartWait">通知への待機を開始</string>
+    <string name="MsgStopWait">通知への待機を停止</string>
+    <string name="MsgServiceIsRunning">バックグラウンドで通知への待機を継続しています。本アプリの「通知の待機を停止」ボタンを押すと待機を終了します</string>
+    <string name="MsgUnlinkDropbox">Dropbox とのリンクを解除</string>
+    <string name="MsgLinkDropbox">Dropbox とリンクする</string>
+    <string name="MsgFailedToLinkDropbox">Dropboxとのリンクに失敗しました</string>
+    <string name="MsgStartService">サービスを開始&#8230;</string>
+    <string name="MsgStopService">サービスを停止&#8230;</string>
+    <string name="MsgWaitingNow">バックグラウンドで待機中</string>
+    <string name="MsgWaitingA">通知を待っています</string>
+    <string name="MsgWaitingB">待機中：受信時にスリープ解除</string>
+    <string name="MsgWakeDevice">通知時に端末のスリープを解除</string>
+</resources>

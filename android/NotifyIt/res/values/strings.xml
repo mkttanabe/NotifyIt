@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotifyIt</string>
+	<string name="Copyright">Copyright &#169; 2014 KLab Inc.</string>
+    <string name="WordYes">Yes</string>
+    <string name="WordNo">No</string>
+    <string name="WordAbout">About</string>
+    <string name="MsgStartWait">Start listening</string>
+    <string name="MsgStopWait">Stop listening</string>
+    <string name="MsgServiceIsRunning">Waiting for the notification in the background. Press \"stop listening\" button to stop it.</string>
+    <string name="MsgUnlinkDropbox">Unlink Dropbox</string>
+    <string name="MsgLinkDropbox">Link to Dropbox</string>
+    <string name="MsgFailedToLinkDropbox">Failed to link Dropbox</string>
+    <string name="MsgStartService">Starting the service&#8230;</string>
+    <string name="MsgStopService">Stopping the service&#8230;</string>
+    <string name="MsgWaitingNow">Running in the background</string>
+    <string name="MsgWaitingA">Waiting for the notification</string>
+    <string name="MsgWaitingB">Waiting: wake device on notification</string>
+    <string name="MsgWakeDevice">Wake device on notification</string>    
+</resources>

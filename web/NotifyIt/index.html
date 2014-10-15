@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>NotifyIt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="https://www.dropbox.com/static/api/dropbox-datastores-1.1-latest.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body bgcolor="#efefff">
+
+<center>
+
+<img src="logo.png">
+
+<!-- Dropbox とリンクするまでメイン UI 非表示 -->
+<div id="main" style="display:none">
+  <!-- リスト表示部分 -->
+  <ul style="list-style:none;" id="URLs"></ul>
+
+  <p>
+  <input type="checkbox" id="showPages" unchecked> 選択されたページをこのブラウザで開く
+  <button id="resetButton">選択状態を解除</button>
+
+  <form id="addForm" method="post">
+  <input id="newData" type="text" size="40" placeholder="" />
+  <button id="addButton" type="submit">エントリを追加</button>
+  </form>
+
+  <p>
+  <hr size=0 width="60%">
+
+  <p>
+  <a href="https://www.dropbox.com/developers/apps/datastores" target="_blank">自分のデータストアを参照</a>
+  <p>
+  <button id="deleteDatastoreButton">このアプリのデータストアを削除</button>
+  <p>
+  <button id="logoutButton">Dropbox とのリンクを解除</button>
+</div>
+
+<div id="login">
+  <button id="loginButton">Dropbox とリンクする</button>
+</div>
+
+<p>
+Copyright &#169; 2014 <a href="http://www.klab.com/jp/" target="_blank" style="text-decoration: none;">KLab Inc.</a>
+
+
+</center>
+</body>
+</html>
